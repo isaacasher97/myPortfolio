@@ -80,7 +80,7 @@ var TxtRotate = function(el, toRotate, period) {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 155 - Math.random() * 100;
   
     if (this.isDeleting) { delta /= 2; }
   
