@@ -645,3 +645,63 @@ button#pills-contact-tab {
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
+
+/* New Skill div style  */
+/* Add this CSS to style the skills section */
+.skill-bx {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill-bx h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    max-width: 100px;
+    margin: 0 auto auto;
+}
+
+.item h5 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Center items in each column */
+.col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Define spacing between items and responsiveness */
+@media (max-width: 767px) {
+    .item {
+        padding: 10px;
+    }
+
+    .item img {
+        max-width: 80px;
+    }
+
+    .item h5 {
+        font-size: 16px;
+    }
+}
