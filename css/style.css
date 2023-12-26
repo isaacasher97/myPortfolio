@@ -587,6 +587,22 @@ button#pills-contact-tab {
 }
 /* as seen on css end  */
 
+#aso-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#aso-container .aso-item:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+#aso-container .aso-item:hover a img {
+  transition: filter 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
