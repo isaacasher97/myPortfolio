@@ -580,6 +580,13 @@ button#pills-contact-tab {
   width: 100%;
 }
 
+/* as seen on css  */
+#as-seen-on-container {
+  width: 100%;
+  height: auto;
+}
+/* as seen on css end  */
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
